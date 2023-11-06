@@ -1,0 +1,28 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:07:41] "OPTIONS /respuestas HTTP/1.1" 200 -
+INFO:root:Respuesta recibida: {'pregunta1': '6-10', 'valor1': 0, 'pregunta2': 'feliz', 'valor2': 0}
+ERROR:root:Error interno al procesar la solicitud: 'respuesta1'
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:07:41] "[35m[1mPOST /respuestas HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:17:24] "OPTIONS /respuestas HTTP/1.1" 200 -
+INFO:root:Respuesta recibida: {'pregunta1': '6-10', 'valor1': 0, 'pregunta2': 'asustado', 'valor2': 2}
+INFO:root:Respuesta insertada en la base de datos con ID: 1
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:17:24] "[35m[1mPOST /respuestas HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 362-426-186
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:20:57] "OPTIONS /respuestas HTTP/1.1" 200 -
+INFO:root:Respuesta recibida: {'pregunta1': '6-10', 'valor1': 0, 'pregunta2': 'asustado', 'valor2': 2}
+INFO:root:Respuesta insertada en la base de datos con ID: 2
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:20:57] "[35m[1mPOST /respuestas HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:21:16] "OPTIONS /respuestas HTTP/1.1" 200 -
+INFO:root:Respuesta recibida: {'pregunta1': '11-15', 'valor1': 0, 'pregunta2': 'feliz', 'valor2': 0}
+INFO:root:Respuesta insertada en la base de datos con ID: 3
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2023 18:21:16] "[35m[1mPOST /respuestas HTTP/1.1[0m" 201 -
